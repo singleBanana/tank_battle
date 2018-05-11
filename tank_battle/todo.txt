@@ -1,0 +1,10 @@
+[ai]
+patrol随机方向
+attack更新路径
+escape逃跑时间
+
+[solo]
+
+[system]
+
+[bug]

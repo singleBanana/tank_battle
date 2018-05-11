@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tilemap">
+      <UniqueIdentifier>{571f3158-2867-4822-bc8a-9438e4024465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tilemap\zlib">
+      <UniqueIdentifier>{8628534a-374c-4efd-8383-987a1fa1eaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tilemap\tinyxml">
+      <UniqueIdentifier>{14beb9fb-591b-4af6-af94-46fa135fbec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity">
+      <UniqueIdentifier>{f4a78d32-35e3-4f49-9f5e-8ff37b0bdb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ai">
+      <UniqueIdentifier>{104338fb-ba83-447a-88b7-9b7ec984a0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{8d8d47f6-31d1-496e-a05a-bb9c3cbfbfb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\bouns">
+      <UniqueIdentifier>{8c4f757c-70d9-4423-b6d0-60f152f6427d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{c1d391a0-06d0-496f-89eb-9ac5402a7644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gamestate">
+      <UniqueIdentifier>{e7eb7945-51fe-455a-be26-6a63d0b9ea68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\enemy">
+      <UniqueIdentifier>{09466c93-548f-46d9-b7c1-01eff1e37e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meshmap">
+      <UniqueIdentifier>{52951684-3afa-4248-9c40-69d2b81543fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\box2d">
+      <UniqueIdentifier>{0f646092-0b1d-4ed7-b66d-65caa6bc7ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{2c72be93-f89b-4322-a43b-211ea0c8e827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particle">
+      <UniqueIdentifier>{0d0ec641-c777-4793-92d2-a9727268180b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{f5e35fb2-57fc-4c55-aa8c-f80e5b0ca486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameplay">
+      <UniqueIdentifier>{68efceca-18f0-417b-b822-59d4932493c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\hgeTileMapXML.cpp">
+      <Filter>tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\TileMapXML.cpp">
+      <Filter>tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\adler32.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\compress.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\crc32.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\deflate.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\gzio.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\infback.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\inffast.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\inflate.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\inftrees.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\trees.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\uncompr.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\zutil.c">
+      <Filter>tilemap\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\tinyxml\tinystr.cpp">
+      <Filter>tilemap\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\tinyxml\tinyxml.cpp">
+      <Filter>tilemap\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\tinyxml\tinyxmlerror.cpp">
+      <Filter>tilemap\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\hge181\other\hgeTileMapXML\tinyxml\tinyxmlparser.cpp">
+      <Filter>tilemap\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="entitymanager.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="tank.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_base.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_random.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="helperfunc.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helperclass.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_statemachine.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="bouns_base.cpp">
+      <Filter>entity\bouns</Filter>
+    </ClCompile>
+    <ClCompile Include="bouns_recover.cpp">
+      <Filter>entity\bouns</Filter>
+    </ClCompile>
+    <ClCompile Include="bouns_power.cpp">
+      <Filter>entity\bouns</Filter>
+    </ClCompile>
+    <ClCompile Include="bouns.cpp">
+      <Filter>entity\bouns</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_player.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactListener.cpp">
+      <Filter>entity\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="menuitem.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gamestate.cpp">
+      <Filter>gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="gamestate_mainmenu.cpp">
+      <Filter>gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="gamestate_play.cpp">
+      <Filter>gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="gamestatemanager.cpp">
+      <Filter>gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="tank_enemy.cpp">
+      <Filter>entity\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="gamestate_option.cpp">
+      <Filter>gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="bouns_pluspoint.cpp">
+      <Filter>entity\bouns</Filter>
+    </ClCompile>
+    <ClCompile Include="bouns_invincible.cpp">
+      <Filter>entity\bouns</Filter>
+    </ClCompile>
+    <ClCompile Include="meshmap.cpp">
+      <Filter>meshmap</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsDebugDraw.cpp">
+      <Filter>entity\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="audiomanager.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="particlemanager.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="resmanager.cpp">
+      <Filter>res</Filter>
+    </ClCompile>
+    <ClCompile Include="bouns_speedup.cpp">
+      <Filter>entity\bouns</Filter>
+    </ClCompile>
+    <ClCompile Include="gameplay.cpp">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\hgeTileMapXML.h">
+      <Filter>tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\TileMapXML.h">
+      <Filter>tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\crc32.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\deflate.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\inffast.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\inffixed.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\inflate.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\inftrees.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\trees.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\zconf.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\zconf.in.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\zlib.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\zlib\zutil.h">
+      <Filter>tilemap\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\tinyxml\tinystr.h">
+      <Filter>tilemap\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\hge181\other\hgeTileMapXML\tinyxml\tinyxml.h">
+      <Filter>tilemap\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="box2ddef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="entitymanager.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="constdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_base.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_random.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="ai.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="helperfunc.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helpermacro.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helperclass.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_statemachine.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="bouns_base.h">
+      <Filter>entity\bouns</Filter>
+    </ClInclude>
+    <ClInclude Include="bouns_recover.h">
+      <Filter>entity\bouns</Filter>
+    </ClInclude>
+    <ClInclude Include="bouns_power.h">
+      <Filter>entity\bouns</Filter>
+    </ClInclude>
+    <ClInclude Include="bouns.h">
+      <Filter>entity\bouns</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_player.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactListener.h">
+      <Filter>entity\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="menuitem.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate.h">
+      <Filter>gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate_mainmenu.h">
+      <Filter>gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate_play.h">
+      <Filter>gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestatemanager.h">
+      <Filter>gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="tank_enemy.h">
+      <Filter>entity\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate_option.h">
+      <Filter>gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="bouns_pluspoint.h">
+      <Filter>entity\bouns</Filter>
+    </ClInclude>
+    <ClInclude Include="bouns_invincible.h">
+      <Filter>entity\bouns</Filter>
+    </ClInclude>
+    <ClInclude Include="meshmap.h">
+      <Filter>meshmap</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsDebugDraw.h">
+      <Filter>entity\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="audiomanager.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="particlemanager.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="resmanager.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="bouns_speedup.h">
+      <Filter>entity\bouns</Filter>
+    </ClInclude>
+    <ClInclude Include="gameplay.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
+  </ItemGroup>
+</Project>

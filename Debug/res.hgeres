@@ -1,0 +1,306 @@
+Texture cursor
+{
+	filename=cursor.png
+}
+
+Sprite spr_cursor
+{
+	texture=cursor
+	rect=0,0,32,32
+}
+
+Texture bg_menu
+{
+	filename=bg_menu.png
+}
+
+Texture bg_play
+{
+	filename=bg_play.png
+}
+
+Sprite spr_bg_play
+{
+	texture=bg_play
+	rect=0,0,800,600
+	blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+Texture player
+{
+	filename=player.png
+}
+
+Texture bullet
+{
+	filename=bullet.png
+}
+
+Texture enemy
+{
+	filename=enemy.png
+}
+
+Texture enemy_50
+{
+	filename=enemy_50.png
+}
+
+Texture enemy_20
+{
+	filename=enemy_20.png
+}
+
+Texture enemy_movefast
+{
+	filename=enemy_movefast.png
+}
+
+Texture enemy_movefast_50
+{
+	filename=enemy_movefast_50.png
+}
+
+Texture enemy_movefast_20
+{
+	filename=enemy_movefast_20.png
+}
+
+Texture enemy_strong
+{
+	filename=enemy_strong.png
+}
+
+Texture enemy_strong_50
+{
+	filename=enemy_strong_50.png
+}
+
+Texture enemy_strong_20
+{
+	filename=enemy_strong_20.png
+}
+
+Texture enemy_boss
+{
+	filename=enemy_boss.png
+}
+
+Texture enemy_boss_50
+{
+	filename=enemy_boss_50.png
+}
+
+Texture enemy_boss_20
+{
+	filename=enemy_boss_20.png
+}
+
+Texture block
+{
+	filename=block.png
+}
+
+Texture block_50
+{
+	filename=block_50.png
+}
+
+Texture block_20
+{
+	filename=block_20.png
+}
+
+Texture mapbound
+{
+	filename=mapbound.png
+}
+
+Texture bouns_recover
+{
+	filename=bouns_recover.png
+}
+
+Texture bouns_power
+{
+	filename=bouns_power.png
+}
+
+Texture bouns_pluspoint
+{
+	filename=bouns_pluspoint.png
+}
+
+Texture bouns_invincible
+{
+	filename=bouns_invincible.png
+}
+
+Texture bouns_speedup
+{
+	filename=bouns_speedup.png
+}
+
+Font text
+{
+	filename=font1.fnt
+}
+
+Font menutext
+{
+	filename=font2.fnt
+}
+
+Texture particles
+{
+ 	filename=particles.png
+}
+
+Sprite ps_bullet_hit
+{
+	texture=particles
+	rect=64,64,32,32
+	hotspot=16,16
+	blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+
+Particle bullet_hit
+{
+	filename=bullet_hit.psi
+	sprite=ps_bullet_hit
+}
+
+Sprite ps_tank_destroy
+{
+	texture=particles
+	rect=32,32,32,32
+	hotspot=16,16
+	blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+
+Particle tank_destroy
+{
+	filename=tank_destroy.psi
+	sprite=ps_tank_destroy
+}
+
+Sprite ps_tank_spawn
+{
+	texture=particles
+	rect=32,64,32,32
+	hotspot=16,16
+	blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+
+Particle tank_spawn
+{
+	filename=tank_spawn.psi
+	sprite=ps_tank_spawn
+}
+
+Sprite ps_block_destroy
+{
+	texture=particles
+	rect=64,96,32,32
+	hotspot=16,16
+	blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+
+Particle block_destroy
+{
+	filename=block_destroy.psi
+	sprite=ps_block_destroy
+}
+
+Sprite ps_bouns_hit
+{
+	texture=particles
+	rect=96,64,32,32
+	hotspot=16,16
+	blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+
+Particle bouns_hit
+{
+	filename=bouns_hit.psi
+	sprite=ps_bouns_hit
+}
+
+Sprite ps_bouns_invincible
+{
+	texture=particles
+	rect=0,64,32,32
+	hotspot=16,16
+	blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+
+Particle bouns_invincible
+{
+	filename=bouns_invincible.psi
+	sprite=ps_bouns_invincible
+}
+
+Sound bgm_mainmenu
+{
+	filename=bgm_mainmenu.mp3
+}
+
+Sound menu_touch
+{
+	filename=menu_touch.wav
+}
+
+Sound bgm_play
+{
+	filename=bgm_play.mp3
+}
+
+Sound bullet_hit_block
+{
+	filename=bullet_hit_block.wav
+}
+
+Sound bullet_hit_bound
+{
+	filename=bullet_hit_bound.wav
+}
+
+Sound bullet_hit_tank
+{
+	filename=bullet_hit_tank.wav
+}
+
+Sound bouns_hit
+{
+	filename=bouns_hit.wav
+}
+
+Sound game_pause
+{
+	filename=game_pause.wav
+}
+
+Sound game_win
+{
+	filename=game_win.wav
+}
+
+Sound game_lose
+{
+	filename=game_lose.wav
+}
+
+Sound tank_destroy
+{
+	filename=tank_destroy.wav
+}
+
+Sound tank_fire
+{
+	filename=tank_fire.wav
+}
+
+Sound block_destroy
+{
+	filename=block_destroy.wav
+}
